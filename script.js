@@ -60,8 +60,8 @@ async function getQuotes() {
 
 //Twitter Quote
 function twitterQuote() {
-    const twitterUrl = `https"//twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
-    window.open(twitterUrl, "_blank");
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+    window.open(twitterUrl, '_blank');
 }
 // Event listeners
 newQuoteBtn.addEventListener("click", newQuote);
